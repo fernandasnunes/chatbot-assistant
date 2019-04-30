@@ -50,7 +50,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://9.232.2.143:8100" sessionid="56bb3f82" />
+    <allow-navigation href="http://9.232.2.143:8100" sessionid="6a47094a" />
     <allow-intent href="market:*" />
     <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
     <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
