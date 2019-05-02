@@ -58,18 +58,20 @@ export class HomePage {
   //WATSON ARMAZENA A FALA
   funcaoInput(text) {
     this.fala = text;
-    console.log(text)
-    //loading show
+
+    
+
+
     const body = {
       apikey: "YbXjEu6o9YbKLsfSxQmOOxapIxl77rFGVZ8WRk_nIGVF",
       workspace_id: "01dd598c-3e3b-4be9-8214-d0012c9c6259",
       url: "https://gateway.watsonplatform.net/assistant/api",
       input: text,
     }
+
     this.change()
     this.watsonService.postWatson(body).then(
       (res: any) => {
-        // loading false
         console.log(res)
         this.funcaoOutput(res.output.text[0])
 
@@ -123,7 +125,6 @@ export class HomePage {
       }
     )
   }
-
 
 
 }
